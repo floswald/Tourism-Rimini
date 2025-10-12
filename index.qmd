@@ -1,0 +1,239 @@
+---
+title: Tourism and (Urban) Economics
+subtitle: Economics of Tourism and Cities Kick-Off Conference <br> Università di Bologna, Rimini Campus
+bibliography: rimini.bib
+date: 2025-10-16
+date-format: "D MMMM, YYYY"
+author: 
+  - name: Florian Oswald
+    orcid: 0000-0001-7737-2038
+    email: florian.oswald@unito.it
+    affiliations: Università di Torino and Collegio Carlo Alberto
+format: 
+  revealjs:
+    theme: _extensions/grantmcdermott/clean/clean.scss
+    chalkboard: false
+    logo: img/unito.png
+    footer: "Tourism and (Urban) Economics, Florian Oswald 2025"
+    incremental: false
+    code-line-numbers: false
+    highlight-style: github
+    slide-number: true
+---
+
+
+
+## A Brief History of Tourism: How It All Started
+
+[NYT article from 2008:](https://archive.nytimes.com/frugaltraveler.blogs.nytimes.com/2008/09/05/lesons-from-the-frugal-grand-tour/) 
+
+> Three hundred years ago, wealthy young Englishmen began taking a post-Oxbridge trek through France and Italy in search of art, culture and the roots of Western civilization. With nearly unlimited funds, aristocratic connections and months (or years) to roam, they commissioned paintings, perfected their language skills and mingled with the upper crust of the Continent.
+
+## A Brief History of Tourism
+
+
+::: {#fig-grandtour layout-ncol=2}
+
+![Grand Tour Itineraries](img/Map_Evolution_of_tourism_1992_-_Grand_Tour_-_Touring_Club_Italiano_CART-TEM-107_B.jpg){height="500px"}
+
+![The 8th Duke of Hamilton with Dr John Moore in Geneva](img/Jean_Preudhomme.jpg){height="500px"}
+
+
+
+:::
+
+
+## The Path to Mass Tourism
+
+![Our World in Data, @owid-tourism](img/international-tourist-trips-by-destination-region.png)
+
+
+
+## World Income
+
+![Our World in Data, @owid-tourism](img/gdp-per-capita-maddison-project-database.png)
+
+
+## Tourism vs Income
+
+![Our World in Data, @owid-tourism](img/tourist-departures-per-1000-vs-gdp.png)
+
+
+
+
+
+
+## Share of Tourism in the Macroeconomy
+
+
+![Our World in Data, @owid-tourism](img/tourism-gdp-proportion-of-total-gdp.png)
+
+
+## Share of Tourism in the Macroeconomy
+
+![Our World in Data, @owid-tourism](img/tourism-gdp-proportion-of-total-gdp-2.png)
+
+# Government Policy {background-color="#40666e"}
+
+
+## Government Policy
+
+::: {.incremental}
+
+* The Natural Resource Curse in Poor Countries.
+
+* Tourism Policy in rich OECD countries?
+
+* Is Tourism a *Growth Sector*?
+
+* What about Labor Markets in Tourism?
+
+* So, how can we grow tourism then?
+
+:::
+
+# Externalities {background-color="#40666e"}
+
+
+
+## Some Issues with Mass Tourism
+
+1. The problem of the commons: A publicly available resource will be depleted by profit maximizing entrepreneurs if limited in some way. Think of beaches or ski resorts.
+3. Higher rental prices in cities.
+4. Noise. Congestion.
+5. Overtourism in general: is there a middle way between becoming *Disneyland* and no tourism revenues at all? How stringent should limits on mass tourism be? How to decide?
+
+
+## Tourists in Cities
+
+* Tradeoffs tradeoffs tradeoffs
+
+
+## Airbnb in The City
+
+![Figure by Aguilera, Artioli and Colomb (2025), *Housing under Platform Capitalism*](img/airbnb.png)
+
+
+
+## Why Measuring Airbnb Impact on Rents is Difficult
+
+* We typically have data on long term rental rates next to the number of airbnb listings in a certain area of a city.
+* We see airbnb's increase, and we see rents increase. 
+* Is this evidence that airbnb *caused* rents to go up?
+* What if some city area is gentrifying (i.e. improving), thus getting more interesting for locals *and* for airbnb tourists at the same time? 
+
+
+# Recent Research: <br> Airbnb, Rents and Amenities {background-color="#40666e"}
+
+
+
+
+## Impact of Airbnb on Rents in Barcelona
+
+![@GARCIALOPEZ2020103278](img/BCN-1.png)
+
+
+
+## Impact of Airbnb on Rents in Barcelona
+
+::: {#fig-bcn layout-ncol=2}
+
+![](img/BCN-2.png){width="500px"}
+
+![](img/BCN-3.png){width="500px"}
+
+@GARCIALOPEZ2020103278
+
+:::
+
+## Airbnb and Local Amenities: Amsterdam
+
+<br>
+
+::: {.columns}
+::: {.column}
+![@https://doi.org/10.3982/ECTA21394](img/amsterdam-1.png)
+:::
+::: {.column}
+* How do amenities in a city change over time?
+* In particular, as mass tourism arrives?
+* Who is better or worse off after this?
+:::
+::: 
+
+
+
+
+## Airbnb and Local Amenities: Amsterdam
+
+![@https://doi.org/10.3982/ECTA21394](img/amsterdam-2.png)
+
+## Airbnb and Local Amenities: Amsterdam
+
+<br>
+
+@https://doi.org/10.3982/ECTA21394 find:
+
+* Young Amsterdam residents are compensated for the rent increases by new amenities which they find interesting (bars, restaurants)
+* Older Amsterdam residents loose out.
+
+
+
+## Other Externalities of Tourism on Locals: Paris
+
+
+::: {.columns}
+::: {.column}
+<br>
+
+![@AVETIAN2025103773](img/paris-1.png)
+:::
+::: {.column}
+<br>
+
+* Do tourists ruin locals' experience of amenities?  
+* People talking too loudly at the next table?
+* This study uses Terrorism and COVID shocks to see whether restaurant reviews get better as no tourists are around.
+  
+::: {.fragment}
+* They do.
+:::
+
+:::
+::: 
+
+
+
+## Other Externalities of Tourism on Locals: Paris
+
+<br>
+
+::: {#fig-bcn layout-ncol=2}
+
+![Figure 1](img/paris-2.png){width="500px"}
+
+![Figure 3](img/paris-3.png){width="500px"}
+
+
+@AVETIAN2025103773
+
+:::
+
+
+# Summary
+
+::: {.incremental}
+
+1. Tourism for the masses is a sign of prosperity and wellbeing.
+2. Mass Tourism also poses challenges for (local) jurisdictions: Space is limited.
+3. Formulating policy responses requires precise measurement of effects.
+4. The effects are nuanced, localized, but significant.
+5. Much work remains to be done. 👉 Your turn!
+
+:::
+
+# Thanks for listening! <br> ... and Good Luck with your Studies! {background-color="#40666e"}
+
+
+# References
+

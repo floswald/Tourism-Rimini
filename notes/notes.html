@@ -1,0 +1,917 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.6.40">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Florian Oswald">
+
+<title>Tourism and (Urban) Economics</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-549806ee2085284f45b00abea8c6df48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-79108a0fc1995748cbd19a5b0e3e3e7c.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+</head>
+
+<body class="fullcontent">
+
+<div id="quarto-search-results"></div>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Tourism and (Urban) Economics</h1>
+<p class="subtitle lead">Università di Bologna, Rimini Campus, Economics of Tourism and Cities</p>
+</div>
+
+
+<div class="quarto-title-meta-author">
+  <div class="quarto-title-meta-heading">Author</div>
+  <div class="quarto-title-meta-heading">Affiliation</div>
+  
+    <div class="quarto-title-meta-contents">
+    <p class="author">Florian Oswald <a href="mailto:florian.oswald@unito.it" class="quarto-title-author-email"><i class="bi bi-envelope"></i></a> <a href="https://orcid.org/0000-0001-7737-2038" class="quarto-title-author-orcid"> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg=="></a></p>
+  </div>
+  <div class="quarto-title-meta-contents">
+        <p class="affiliation">
+            Uni Turin, Collegio Carlo Alberto, SciencesPo Paris
+          </p>
+      </div>
+  </div>
+
+<div class="quarto-title-meta">
+
+      
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">16 October, 2025</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<p>Dear Students,</p>
+<p>Dear Directors of the Study Programs,</p>
+<p>My esteemed Colleagues,</p>
+<p>Ladies and Gentlemen in the audience,</p>
+<p>It’s a pleasure to share some thoughts with you today on the topic of Tourism and Economics in general - and Urban Economics in particular. Your study programs here at the Rimini campus of the University of Bologna provides you with excellent foundations to study this exciting intersection of topics, and I would like to congratulate the program directors for setting up and running this degree, and I would like to congratulate all of you on a good choice of study area.</p>
+<p>I want to start this talk with a general overview of tourism in a historical perspective, so that we remind ourselves where the phenomenon originates. I want to then talk about the importance of tourism in a macroeconomic sense, so that we get an idea of the magnitudes which are at stake - which differ in different areas, but can be quite sizeable. This is certainly the case for Italy, but it is true in many other countries as well. From the macroeconomy, I will then zoom in on a few critical issues that have to do with mass tourism. I will consider in particular issues and tensions in Cities.</p>
+<section id="a-brief-history-of-tourism" class="level2">
+<h2 class="anchored" data-anchor-id="a-brief-history-of-tourism">A Brief History of Tourism</h2>
+<p>Before our current epoch in human history, which I conveniently define to be post 1945, tourism was a fringe phenomenon limited to the rich elite. Kings and Emperors went on vacation, later on also some nobility. For instance, here is how a <a href="https://archive.nytimes.com/frugaltraveler.blogs.nytimes.com/2008/09/05/lesons-from-the-frugal-grand-tour/">NYT article from 2008</a> describes what was called the <em>Grand Tour</em> (which was a thing around 1660-1840)</p>
+<blockquote class="blockquote">
+<p>Three hundred years ago, wealthy young Englishmen began taking a post-Oxbridge trek through France and Italy in search of art, culture and the roots of Western civilization. With nearly unlimited funds, aristocratic connections and months (or years) to roam, they commissioned paintings, perfected their language skills and mingled with the upper crust of the Continent.</p>
+</blockquote>
+<div id="fig-grandtour" class="quarto-layout-panel">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-grandtour-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../img/Map_Evolution_of_tourism_1992_-_Grand_Tour_-_Touring_Club_Italiano_CART-TEM-107_B.jpg" height="400" class="figure-img"></p>
+<figcaption>Grand Tour Itineraries</figcaption>
+</figure>
+</div>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../img/Jean_Preudhomme.jpg" height="400" class="figure-img"></p>
+<figcaption>The 8th Duke of Hamilton with Dr John Moore in Geneva</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-grandtour-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;1: The Grand Tour through Europe 1660-1840
+</figcaption>
+</figure>
+</div>
+</section>
+<section id="the-path-to-mass-tourism" class="level2">
+<h2 class="anchored" data-anchor-id="the-path-to-mass-tourism">The Path to Mass Tourism</h2>
+<p>Nowadays, tourism is a mass phenomenon. Everybody knows what it is, and my guess that everybody in this room has made experiences over their lifetimes that we would call “tourism”. Let’s quickly look at the evolution fo this phenomenon over time, and how we went from <em>vacations for kings</em> to <em>vacations for everyone</em>.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../img/international-tourist-trips-by-destination-region.png" class="img-fluid figure-img"></p>
+<figcaption>Our World in Data, <span class="citation" data-cites="owid-tourism">Herre and Samborska (<a href="#ref-owid-tourism" role="doc-biblioref">2023</a>)</span></figcaption>
+</figure>
+</div>
+<ul>
+<li>We can see that after WW2, tourism measured by international overnight stays was still in its infancy. This is partly due to very expensive airfares but mainly to few resources to spend on leisure in a world destroyed by war. People around the world were busy rebuilding their economies and livelihoods: They had no time, no money, and probably no interest to go on vacation.</li>
+<li>Then we see a gradual but constant increase in the amount of tourist trips. We can see how different destinations fared over time. Europe is the most sought after destination (that includes Europeans within Europe).</li>
+<li>The trend is nothing but striking. It is not difficult to imagine how to extend this graph to the right. Of course we all know what the graph looks like just 3 years out and into 2021, when the COVID19 pandemic reset tourism to a level of zero. Apart from such incidents, and looking at data like this, the UN World Tourism Organization estimated in 2004 that this would grow at an annual rate of 4%. We call this shape commonly exponential growth - each year we seem to outperform the growth from last year.</li>
+<li>This pattern reflects what we see in overall living standards across the globe.</li>
+<li>Let’s look at this:</li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../img/gdp-per-capita-maddison-project-database.png" class="img-fluid figure-img"></p>
+<figcaption>Our World in Data, <span class="citation" data-cites="owid-tourism">Herre and Samborska (<a href="#ref-owid-tourism" role="doc-biblioref">2023</a>)</span></figcaption>
+</figure>
+</div>
+<p>So, it is fair to say that the advent of mass tourism is the result of two forces. On the on hand technological progress led to cheaper means of transport and a decline in travel costs, which together with more tourism infrastructure reduces prices. On the other hand, continued increases in living standards allowed always more and more people to be able to afford a vacation. The next graph makes this point nicely for the year 2022:</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../img/tourist-departures-per-1000-vs-gdp.png" class="img-fluid figure-img"></p>
+<figcaption>Our World in Data, <span class="citation" data-cites="owid-tourism">Herre and Samborska (<a href="#ref-owid-tourism" role="doc-biblioref">2023</a>)</span></figcaption>
+</figure>
+</div>
+<ul>
+<li>Here we can clearly see that the higher the living standard (measured by GDP per capita) in a country, the higher the average number of international departures for tourism.</li>
+<li>Let me highlight a few things here which are important to interpret this correctly
+<ul>
+<li>This is a log scale, meaning the distances on the y axis increase.</li>
+<li>This is about <em>international</em> tourism. Basically, Italy has only half of Bulgaria’s departures because many Italians do vacation in their own country.</li>
+<li>Going towards the left on the income scale, we see that the number of international tourist trips collapses rapidly.</li>
+<li>It seems evident from this graph that money buys many things, quite obviously, and among those it buys vacations abroad.</li>
+</ul></li>
+<li>To sum up, while we have seen a huge increase in the number of tourist trips over the last 70 years, in line with impressive increases in living standards.</li>
+</ul>
+</section>
+<section id="tourism-in-the-macroeconomy" class="level2">
+<h2 class="anchored" data-anchor-id="tourism-in-the-macroeconomy">Tourism in the Macroeconomy</h2>
+<p>Let me point out first that it is difficult to measure precisely what share the tourism sector represents in the gross value added (GDP) of a country. There are important data issues, and methodologically this is not clear. So, you will find different numbers from time to time. However, the big picture looks somewhat like the following.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../img/tourism-gdp-proportion-of-total-gdp.png" class="img-fluid figure-img"></p>
+<figcaption>Our World in Data, <span class="citation" data-cites="owid-tourism">Herre and Samborska (<a href="#ref-owid-tourism" role="doc-biblioref">2023</a>)</span></figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../img/tourism-gdp-proportion-of-total-gdp-2.png" class="img-fluid figure-img"></p>
+<figcaption>Our World in Data, <span class="citation" data-cites="owid-tourism">Herre and Samborska (<a href="#ref-owid-tourism" role="doc-biblioref">2023</a>)</span></figcaption>
+</figure>
+</div>
+<ul>
+<li>Tourism is an important share of some countries overall gross product.</li>
+<li>What are some implications for government policy?</li>
+</ul>
+</section>
+<section id="government-policy" class="level2">
+<h2 class="anchored" data-anchor-id="government-policy">Government Policy</h2>
+<ul>
+<li>Tourism is a vital part of income for many poor countries. There are many problems associated with intensive tourism in poor countries, but it can be a valid strategy to start developing faster. It all depends on the <em>how</em> not on the <em>if</em> it is done. There are many scare stories about resource-rich countries who were ruined by corruption and mis-management. We call it the natural resource curse. Basically, don’t sell off everything you have, and at once.</li>
+<li>How much should a government of a rich OECD country like Italy try to sustain the tourism sector with specific investment and subsidies?</li>
+<li>This is a thorny question to answer in a room full of current and future experts of the Tourism Industry. So let me try and be careful now.</li>
+<li>In general, if we would advise to enact industrial policy at all, and help certain sectors rather than others, the common advice is to invest in sectors with high growth potential. This concerns in particular areas where we hope to become more productive or more efficient. For example, by producing the same amount of output with lower cost, or by producing more but at constant cost.</li>
+<li>Now, I told you before that tourism is expected to grow at 4% per year. There are only few other sectors that are expected to grow at this rate. It seems wrong for any government confronted with those numbers not to invest in this sector in some way.</li>
+<li>This is true, and nobody right in their mind would suggest to shut down tourism. But - and that’s a big but - one must recognize that tourism is subject to a some very clear and stringent physical limits which question this idea of <em>the sector of the future</em>. Tourism - to say it in the language of 2025 - does not <em>scale well</em>. What do I mean by that?
+<ol type="1">
+<li>Tourism involves visiting physical locations. (it’s not like watching movies via a streaming service where I can serve as many customers as I want <em>without</em> any physical limit).</li>
+<li>The physical world is limited - there are only so many locations on this planet (worth visiting). Once the location is full of visitors, nobody else can enter.</li>
+<li>This notion of physical constraints is becoming more salient recently. There is a concept called <em>overtourism</em>. The idea of “well, we can always add another hotel”, or “we can always add another skilift”, or “we can always add a few rows to this beach club (stabilimento)” is running up against more and more resistance.</li>
+<li>Space is limited, and (local and global) jurisdictions need to decide what to do with that space. It’s a complex problem, because often we have a public resource (a mountain, a beach, or some other landscape) and need to decide if and how to exploit it. There are many competing interests.</li>
+<li>All of this to say: from a government’s prospective, each Euro I invest in one sector, I do not invest in another sector. From this point of view, the bulk of investment should go to other things like R+D in general and high-tech (biotech) in particular. There are many nuances to this statement, and it will apply to different degrees in different countries and circumstances.</li>
+</ol></li>
+</ul>
+</section>
+<section id="labor-markets" class="level2">
+<h2 class="anchored" data-anchor-id="labor-markets">Labor Markets</h2>
+<ul>
+<li>A related issue is that next to space, labor is one of the main inputs into tourism : chef, waiter, ski instructor, yoga trainer, bus driver etc. Each of those can only produce a finite number of meals/skiing/yoga lessons etc. Those jobs don’t scale.</li>
+<li>People need jobs. The 2023 edition of EUROSTATs Tourism Satellite Accounts estimates that there are 4.5 million jobs in tourism in Italy.</li>
+<li>There are issues with the quality of jobs in this sector. Weak growth in wages (italy in particular) because of no or too little competition.</li>
+</ul>
+</section>
+<section id="so-for-the-government-how-to-grow-tourism" class="level2">
+<h2 class="anchored" data-anchor-id="so-for-the-government-how-to-grow-tourism">So, for the government: how to grow tourism?</h2>
+<p>Tourism revenues can be thought of as</p>
+<p><span class="math inline">\(Y = q \times p\)</span></p>
+<p>where</p>
+<ul>
+<li><span class="math inline">\(q\)</span> is the number of tourists, and</li>
+<li><span class="math inline">\(p\)</span> is the price each tourist pays</li>
+</ul>
+<p>The problem is that <span class="math inline">\(q\)</span> is subject to limits from the physical world, as we said. So, one policy advice to give to a rich country, is to try and increase <span class="math inline">\(p\)</span>. How can one charge a higher price? By increasing quality.</p>
+</section>
+<section id="externalities" class="level1">
+<h1>Externalities</h1>
+<section id="some-issues-with-mass-tourism" class="level2">
+<h2 class="anchored" data-anchor-id="some-issues-with-mass-tourism">Some Issues with Mass Tourism</h2>
+<ol type="1">
+<li>The problem of the commons: A publicly available resource will be depleted by profit maximizing entrepreneurs if limited in some way. Think of beaches or ski resorts.</li>
+<li>Higher rental prices in cities.</li>
+<li>Noise. Congestion.</li>
+<li>Overtourism in general: is there a middle way between becoming <em>Disneyland</em> and no tourism revenues at all? How stringent should limits on mass tourism be? How to decide?</li>
+</ol>
+</section>
+<section id="tourists-in-cities" class="level2">
+<h2 class="anchored" data-anchor-id="tourists-in-cities">Tourists in Cities</h2>
+<ul>
+<li>In cities, the problem is similar to mountains and beaches. We don’t have public space to allocate, but <em>private</em> space: In a bed where a tourist sleeps, nobody else can sleep. In particular, no local resident can sleep there - except of course in rare cases where they sleep in one bed together, but this is not the subject of our concerns here. So, if it is difficult to build new housing for locals at the same rate as tourism increases, then there is an obvious shortage of space.</li>
+<li>With strong growth in Urban Tourism, what are the issues that cities face ?</li>
+<li>Policy makers need to confront a conflict between beneficiaries and people who only suffer from tourism in cities.</li>
+<li>The proper response will take a stand on what is regarded as <em>fair</em> in some way. However, to make good policy, it is crucial to have a good understanding of the magnitudes at play.</li>
+<li>In particular: We may all agree that the arrival of Airbnb (et al) in a city most likely would increase rental prices, the crucial question is - by how much?</li>
+<li>What would rent have been in area xyz, had airbnb never happened?</li>
+</ul>
+</section>
+<section id="airbnb-in-the-city" class="level2">
+<h2 class="anchored" data-anchor-id="airbnb-in-the-city">Airbnb in The City</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../img/airbnb.png" class="img-fluid figure-img"></p>
+<figcaption>Figure by Aguilera, Artioli and Colomb, <em>Housing under Platform Capitalism</em></figcaption>
+</figure>
+</div>
+</section>
+<section id="why-measuring-airbnb-impact-on-rents-is-difficult" class="level2">
+<h2 class="anchored" data-anchor-id="why-measuring-airbnb-impact-on-rents-is-difficult">Why Measuring Airbnb Impact on Rents is Difficult</h2>
+<ul>
+<li>We typically have data on long term rental rates next to the number of airbnb listings in a certain area of a city.</li>
+<li>We see airbnb’s increase, and we see rents increase.</li>
+<li>Is this evidence that airbnb <em>caused</em> rents to go up?</li>
+<li>What if some city area is gentrifying (i.e.&nbsp;improving), thus getting more interesting for locals <em>and</em> for airbnb tourists at the same time?</li>
+</ul>
+</section>
+<section id="impact-of-airbnb-on-rents-in-barcelona" class="level2">
+<h2 class="anchored" data-anchor-id="impact-of-airbnb-on-rents-in-barcelona">Impact of Airbnb on Rents in Barcelona</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../img/BCN-1.png" class="img-fluid figure-img"></p>
+<figcaption><span class="citation" data-cites="GARCIALOPEZ2020103278">Garcia-López et al. (<a href="#ref-GARCIALOPEZ2020103278" role="doc-biblioref">2020</a>)</span></figcaption>
+</figure>
+</div>
+</section>
+<section id="impact-of-airbnb-on-rents-in-barcelona-1" class="level2">
+<h2 class="anchored" data-anchor-id="impact-of-airbnb-on-rents-in-barcelona-1">Impact of Airbnb on Rents in Barcelona</h2>
+<div id="fig-bcn" class="quarto-layout-panel">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-bcn-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
+<p><img src="../img/BCN-2.png" class="img-fluid figure-img" width="500"></p>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
+<p><img src="../img/BCN-3.png" class="img-fluid figure-img" width="500"></p>
+</div>
+</div>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-bcn-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;2: <span class="citation" data-cites="GARCIALOPEZ2020103278">Garcia-López et al. (<a href="#ref-GARCIALOPEZ2020103278" role="doc-biblioref">2020</a>)</span>
+</figcaption>
+</figure>
+</div>
+</section>
+<section id="airbnb-and-local-amenities-amsterdam" class="level2">
+<h2 class="anchored" data-anchor-id="airbnb-and-local-amenities-amsterdam">Airbnb and Local Amenities: Amsterdam</h2>
+<div class="columns">
+<div class="column">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../img/amsterdam-1.png" class="img-fluid figure-img"></p>
+<figcaption><span class="citation" data-cites="https://doi.org/10.3982/ECTA21394">Almagro and Domı́nguez‐Iino (<a href="#ref-https://doi.org/10.3982/ECTA21394" role="doc-biblioref">2025</a>)</span></figcaption>
+</figure>
+</div>
+</div><div class="column">
+<ul>
+<li>How do amenities in a city change over time?</li>
+<li>In particular, as mass tourism arrives?</li>
+<li>Who is better or worse off after this?</li>
+</ul>
+</div>
+</div>
+</section>
+<section id="airbnb-and-local-amenities-amsterdam-1" class="level2">
+<h2 class="anchored" data-anchor-id="airbnb-and-local-amenities-amsterdam-1">Airbnb and Local Amenities: Amsterdam</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../img/amsterdam-2.png" class="img-fluid figure-img"></p>
+<figcaption><span class="citation" data-cites="https://doi.org/10.3982/ECTA21394">Almagro and Domı́nguez‐Iino (<a href="#ref-https://doi.org/10.3982/ECTA21394" role="doc-biblioref">2025</a>)</span></figcaption>
+</figure>
+</div>
+</section>
+<section id="airbnb-and-local-amenities-amsterdam-2" class="level2">
+<h2 class="anchored" data-anchor-id="airbnb-and-local-amenities-amsterdam-2">Airbnb and Local Amenities: Amsterdam</h2>
+<p><span class="citation" data-cites="https://doi.org/10.3982/ECTA21394">Almagro and Domı́nguez‐Iino (<a href="#ref-https://doi.org/10.3982/ECTA21394" role="doc-biblioref">2025</a>)</span> find:</p>
+<ul>
+<li>Young Amsterdam residents are compensated for the rent increases by new amenities which they find interesting (bars, restaurants)</li>
+<li>Older Amsterdam residents loose out.</li>
+</ul>
+</section>
+<section id="other-externalities-of-tourism-on-locals-paris" class="level2">
+<h2 class="anchored" data-anchor-id="other-externalities-of-tourism-on-locals-paris">Other Externalities of Tourism on Locals: Paris</h2>
+<div class="columns">
+<div class="column">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../img/paris-1.png" class="img-fluid figure-img"></p>
+<figcaption><span class="citation" data-cites="AVETIAN2025103773">Avetian and Pauly (<a href="#ref-AVETIAN2025103773" role="doc-biblioref">2025</a>)</span></figcaption>
+</figure>
+</div>
+</div><div class="column">
+<ul>
+<li>Do tourists ruin locals’ experience of amenities?<br>
+</li>
+<li>People talking too loudly at the next table?</li>
+<li>This study uses Terrorism and COVID shocks to see whether restaurant reviews get better as no tourists are around.</li>
+<li>They do.</li>
+</ul>
+</div>
+</div>
+</section>
+<section id="other-externalities-of-tourism-on-locals-paris-1" class="level2">
+<h2 class="anchored" data-anchor-id="other-externalities-of-tourism-on-locals-paris-1">Other Externalities of Tourism on Locals: Paris</h2>
+<div id="fig-bcn" class="quarto-layout-panel">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-bcn-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../img/paris-2.png" class="img-fluid figure-img" width="500"></p>
+<figcaption>Figure 1</figcaption>
+</figure>
+</div>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../img/paris-3.png" class="img-fluid figure-img" width="500"></p>
+<figcaption>Figure 3</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-bcn-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;3: <span class="citation" data-cites="AVETIAN2025103773">Avetian and Pauly (<a href="#ref-AVETIAN2025103773" role="doc-biblioref">2025</a>)</span>
+</figcaption>
+</figure>
+</div>
+</section>
+</section>
+<section id="summary" class="level1">
+<h1>Summary</h1>
+<ol type="1">
+<li>Tourism for the masses is a sign of prosperity and wellbeing.</li>
+<li>Mass Tourism also poses challenges for (local) jurisdictions: Space is limited.</li>
+<li>Formulating policy responses requires precise measurement of effects.</li>
+<li>The effects are nuanced, localized, but significant.</li>
+<li>Much work remains to be done.</li>
+</ol>
+
+
+
+</section>
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
+<div id="ref-https://doi.org/10.3982/ECTA21394" class="csl-entry" role="listitem">
+Almagro, Milena, and Tomás Domı́nguez‐Iino. 2025. <span>“Location Sorting and Endogenous Amenities: Evidence from Amsterdam.”</span> <em>Econometrica</em> 93 (3): 1031–71. https://doi.org/<a href="https://doi.org/10.3982/ECTA21394">https://doi.org/10.3982/ECTA21394</a>.
+</div>
+<div id="ref-AVETIAN2025103773" class="csl-entry" role="listitem">
+Avetian, Vladimir, and Stefan Pauly. 2025. <span>“You Can’t Sit with Us: How Locals and Tourists Compete for Amenities in Paris.”</span> <em>Journal of Urban Economics</em> 148: 103773. https://doi.org/<a href="https://doi.org/10.1016/j.jue.2025.103773">https://doi.org/10.1016/j.jue.2025.103773</a>.
+</div>
+<div id="ref-GARCIALOPEZ2020103278" class="csl-entry" role="listitem">
+Garcia-López, Miquel-Àngel, Jordi Jofre-Monseny, Rodrigo Martı́nez-Mazza, and Mariona Segú. 2020. <span>“Do Short-Term Rental Platforms Affect Housing Markets? Evidence from Airbnb in Barcelona.”</span> <em>Journal of Urban Economics</em> 119: 103278. https://doi.org/<a href="https://doi.org/10.1016/j.jue.2020.103278">https://doi.org/10.1016/j.jue.2020.103278</a>.
+</div>
+<div id="ref-owid-tourism" class="csl-entry" role="listitem">
+Herre, Bastian, and Veronika Samborska. 2023. <span>“Tourism.”</span> <em>Our World in Data</em>. https://doi.org/<a href="https://ourworldindata.org/tourism">https://ourworldindata.org/tourism</a>.
+</div>
+</div></section></div></main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const onCopySuccess = function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
+  });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp("https:\/\/floswald\.github\.io\/Tourism-Rimini\/");
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>

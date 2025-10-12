@@ -13,7 +13,7 @@ format:
   revealjs:
     theme: _extensions/grantmcdermott/clean/clean.scss
     chalkboard: false
-    logo: img/unito.png
+    logo: img/cca.png
     footer: "Tourism and (Urban) Economics, Florian Oswald 2025"
     incremental: false
     code-line-numbers: false

@@ -106,7 +106,7 @@ Let me point out first that it is difficult to measure precisely what share the 
 - People need jobs. The 2023 edition of EUROSTATs Tourism Satellite Accounts estimates that there are 4.5 million jobs in tourism in Italy.
 - There are issues with the quality of jobs in this sector. Weak growth in wages (italy in particular) because of no or too little competition. 
 
-## So, for the government: how to grow tourism?
+## So, for the government: how to grow tourism (if at all)?
 
 Tourism revenues can be thought of as 
 
@@ -124,7 +124,7 @@ The problem is that $q$ is subject to limits from the physical world, as we said
 
 ## Some Issues with Mass Tourism
 
-1. The problem of the commons: A publicly available resource will be depleted by profit maximizing entrepreneurs if limited in some way. Think of beaches or ski resorts.
+1. The problem of the commons: A publicly available resource will be depleted by profit maximizing entrepreneurs if not regulated some way. Think of beaches or ski resorts.
 3. Higher rental prices in cities.
 4. Noise. Congestion.
 5. Overtourism in general: is there a middle way between becoming *Disneyland* and no tourism revenues at all? How stringent should limits on mass tourism be? How to decide?
@@ -132,23 +132,42 @@ The problem is that $q$ is subject to limits from the physical world, as we said
 
 ## Tourists in Cities
 
-* In cities, the problem is similar to mountains and beaches. We don't have public space to allocate, but *private* space: In a bed where a tourist sleeps, nobody else can sleep. In particular, no local resident can sleep there - except of course in rare cases where they sleep in one bed together, but this is not the subject of our concerns here. So, if it is difficult to build new housing for locals at the same rate as tourism increases, then there is an obvious shortage of space.
+* In cities, the problem is similar to mountains and beaches. We not only have public space to allocate, but also *private* space: In a bed where a tourist sleeps, nobody else can sleep. In particular, no local resident can sleep there - except of course in rare cases where they sleep in one bed together, but this is not the subject of our concerns here. So, if it is difficult to build new housing for locals at the same rate as tourism increases, then there will be an obvious shortage of housing space. The housing crises is a major concern for the political stability of our societies.
 * With strong growth in Urban Tourism, what are the issues that cities face ?
-* Policy makers need to confront a conflict between beneficiaries and people who only suffer from tourism in cities. 
-* The proper response will take a stand on what is regarded as *fair* in some way. However, to make good policy, it is crucial to have a good understanding of the magnitudes at play.
-* In particular: We may all agree that the arrival of Airbnb (et al) in a city most likely would increase rental prices, the crucial question is - by how much?
-* What would rent have been in area xyz, had airbnb never happened?
+* Policy makers need to confront a conflict between beneficiaries and people who suffer from tourism in cities. 
+
+
+## Platform Capitalism vs The City
+
+* We have seen the arrival of online intermediators in several domains which directly impact cities: transport (uber), food delivery, Short Term Rental (Airbnb and Booking), Micromobility (Lime) 
+* The regulation of those poses formidable problems for local, national and supranational governments.
+* We see many different approaches across cities.
+* Around Airbnb alone, we have at least 6 different interest groups:
+    1. Airbnb
+    2. Associations of "home sharers" (hosts)
+    3. the hotel industry
+    4. residents' associations
+    5. *sharing economy* advocates
+    6. corporate platforms
+* We see regulation ranging from light (inexistent - Milan) until very stringent (Barcelona). This is driven by a host of reasons, basically which political actors are involved.
+* Implementation challenges of rules are real. The Paris office in charge of checking the proper licensing of Airbnbs was staffed with 7 agents last time I asked.
+* 
 
 
 ## Airbnb in The City
 
-![Figure by Aguilera, Artioli and Colomb, *Housing under Platform Capitalism*](../img/airbnb.png)
+![Figure by @aguilera2025housing](../img/airbnb.png)
 
 
 
 ## Why Measuring Airbnb Impact on Rents is Difficult
 
-* We typically have data on long term rental rates next to the number of airbnb listings in a certain area of a city.
+* The proper response to Airbnb will take a stand on what is regarded as *fair* in some way *Who gets what and how*. However, to make good policy, it is crucial to have a good understanding of the magnitudes at play.
+* In particular: We may all agree that the arrival of Airbnb (et al) in a city most likely would increase rental prices, the crucial question is - by how much?
+* What would rent have been in area xyz, had airbnb never happened?
+
+* Airbnb does **not** share any data.
+* We typically have data only long term rental rates next to the number of airbnb listings in a certain area of a city.
 * We see airbnb's increase, and we see rents increase. 
 * Is this evidence that airbnb *caused* rents to go up?
 * What if some city area is gentrifying (i.e. improving), thus getting more interesting for locals *and* for airbnb tourists at the same time? 

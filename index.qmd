@@ -106,16 +106,60 @@ format:
 
 ## Tourists in Cities
 
-* Tradeoffs tradeoffs tradeoffs
+
+::: {.incremental}
+
+
+<br>
+
+* Decide on an allocation of space.
+* Growth in Urban Tourism expected very strong.
+* Policy makers must confront the critical tradeoffs: You cannot make everybody happy here.
+
+:::
+
+
+## The Arrival of Platform Capitalism in our Cities
+
+<br>
+
+::: {.columns}
+::: {.column}
+::: {.fragment}
+* Airbnb, Uber, Deliveroo, Lime etc
+* Digital Platform acting as a *match maker*
+* Conflict with other (traditional) forms of business.
+* Many different approaches and layers to regulation.
+
+:::
+:::
+::: {.column}
+::: {.fragment}
+
+### Airbnb Interest Groups
+
+1. Airbnb
+2. Associations of "home sharers" (hosts)
+3. The hotel industry
+4. Residents' associations
+5. *Sharing economy* advocates
+6. Corporate platforms
+
+
+:::
+:::
+:::
 
 
 ## Airbnb in The City
 
-![Figure by Aguilera, Artioli and Colomb (2025), *Housing under Platform Capitalism*](img/airbnb.png)
+![Figure by @aguilera2025housing, *Housing under Platform Capitalism*](img/airbnb.png)
 
 
 
 ## Why Measuring Airbnb Impact on Rents is Difficult
+
+<br>
 
 * We typically have data on long term rental rates next to the number of airbnb listings in a certain area of a city.
 * We see airbnb's increase, and we see rents increase. 
@@ -225,7 +269,7 @@ format:
 ::: {.incremental}
 
 1. Tourism for the masses is a sign of prosperity and wellbeing.
-2. Mass Tourism also poses challenges for (local) jurisdictions: Space is limited.
+2. Mass Tourism also poses challenges for (local/global) jurisdictions: Space is limited, and we must regulate (market does not solve the problem!).
 3. Formulating policy responses requires precise measurement of effects.
 4. The effects are nuanced, localized, but significant.
 5. Much work remains to be done. 👉 Your turn!

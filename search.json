@@ -42,39 +42,46 @@
     "text": "Labor Markets\n\nA related issue is that next to space, labor is one of the main inputs into tourism : chef, waiter, ski instructor, yoga trainer, bus driver etc. Each of those can only produce a finite number of meals/skiing/yoga lessons etc. Those jobs don’t scale.\nPeople need jobs. The 2023 edition of EUROSTATs Tourism Satellite Accounts estimates that there are 4.5 million jobs in tourism in Italy.\nThere are issues with the quality of jobs in this sector. Weak growth in wages (italy in particular) because of no or too little competition."
   },
   {
-    "objectID": "notes/notes.html#so-for-the-government-how-to-grow-tourism",
-    "href": "notes/notes.html#so-for-the-government-how-to-grow-tourism",
+    "objectID": "notes/notes.html#so-for-the-government-how-to-grow-tourism-if-at-all",
+    "href": "notes/notes.html#so-for-the-government-how-to-grow-tourism-if-at-all",
     "title": "Tourism and (Urban) Economics",
-    "section": "So, for the government: how to grow tourism?",
-    "text": "So, for the government: how to grow tourism?\nTourism revenues can be thought of as\n\\(Y = q \\times p\\)\nwhere\n\n\\(q\\) is the number of tourists, and\n\\(p\\) is the price each tourist pays\n\nThe problem is that \\(q\\) is subject to limits from the physical world, as we said. So, one policy advice to give to a rich country, is to try and increase \\(p\\). How can one charge a higher price? By increasing quality."
+    "section": "So, for the government: how to grow tourism (if at all)?",
+    "text": "So, for the government: how to grow tourism (if at all)?\nTourism revenues can be thought of as\n\\(Y = q \\times p\\)\nwhere\n\n\\(q\\) is the number of tourists, and\n\\(p\\) is the price each tourist pays\n\nThe problem is that \\(q\\) is subject to limits from the physical world, as we said. So, one policy advice to give to a rich country, is to try and increase \\(p\\). How can one charge a higher price? By increasing quality."
   },
   {
     "objectID": "notes/notes.html#some-issues-with-mass-tourism",
     "href": "notes/notes.html#some-issues-with-mass-tourism",
     "title": "Tourism and (Urban) Economics",
     "section": "Some Issues with Mass Tourism",
-    "text": "Some Issues with Mass Tourism\n\nThe problem of the commons: A publicly available resource will be depleted by profit maximizing entrepreneurs if limited in some way. Think of beaches or ski resorts.\nHigher rental prices in cities.\nNoise. Congestion.\nOvertourism in general: is there a middle way between becoming Disneyland and no tourism revenues at all? How stringent should limits on mass tourism be? How to decide?"
+    "text": "Some Issues with Mass Tourism\n\nThe problem of the commons: A publicly available resource will be depleted by profit maximizing entrepreneurs if not regulated some way. Think of beaches or ski resorts.\nHigher rental prices in cities.\nNoise. Congestion.\nOvertourism in general: is there a middle way between becoming Disneyland and no tourism revenues at all? How stringent should limits on mass tourism be? How to decide?"
   },
   {
     "objectID": "notes/notes.html#tourists-in-cities",
     "href": "notes/notes.html#tourists-in-cities",
     "title": "Tourism and (Urban) Economics",
     "section": "Tourists in Cities",
-    "text": "Tourists in Cities\n\nIn cities, the problem is similar to mountains and beaches. We don’t have public space to allocate, but private space: In a bed where a tourist sleeps, nobody else can sleep. In particular, no local resident can sleep there - except of course in rare cases where they sleep in one bed together, but this is not the subject of our concerns here. So, if it is difficult to build new housing for locals at the same rate as tourism increases, then there is an obvious shortage of space.\nWith strong growth in Urban Tourism, what are the issues that cities face ?\nPolicy makers need to confront a conflict between beneficiaries and people who only suffer from tourism in cities.\nThe proper response will take a stand on what is regarded as fair in some way. However, to make good policy, it is crucial to have a good understanding of the magnitudes at play.\nIn particular: We may all agree that the arrival of Airbnb (et al) in a city most likely would increase rental prices, the crucial question is - by how much?\nWhat would rent have been in area xyz, had airbnb never happened?"
+    "text": "Tourists in Cities\n\nIn cities, the problem is similar to mountains and beaches. We not only have public space to allocate, but also private space: In a bed where a tourist sleeps, nobody else can sleep. In particular, no local resident can sleep there - except of course in rare cases where they sleep in one bed together, but this is not the subject of our concerns here. So, if it is difficult to build new housing for locals at the same rate as tourism increases, then there will be an obvious shortage of housing space. The housing crises is a major concern for the political stability of our societies.\nWith strong growth in Urban Tourism, what are the issues that cities face ?\nPolicy makers need to confront a conflict between beneficiaries and people who suffer from tourism in cities."
+  },
+  {
+    "objectID": "notes/notes.html#platform-capitalism-vs-the-city",
+    "href": "notes/notes.html#platform-capitalism-vs-the-city",
+    "title": "Tourism and (Urban) Economics",
+    "section": "Platform Capitalism vs The City",
+    "text": "Platform Capitalism vs The City\n\nWe have seen the arrival of online intermediators in several domains which directly impact cities: transport (uber), food delivery, Short Term Rental (Airbnb and Booking), Micromobility (Lime)\nThe regulation of those poses formidable problems for local, national and supranational governments.\nWe see many different approaches across cities.\nAround Airbnb alone, we have at least 6 different interest groups:\n\nAirbnb\nAssociations of “home sharers” (hosts)\nthe hotel industry\nresidents’ associations\nsharing economy advocates\ncorporate platforms\n\nWe see regulation ranging from light (inexistent - Milan) until very stringent (Barcelona). This is driven by a host of reasons, basically which political actors are involved.\nImplementation challenges of rules are real. The Paris office in charge of checking the proper licensing of Airbnbs was staffed with 7 agents last time I asked."
   },
   {
     "objectID": "notes/notes.html#airbnb-in-the-city",
     "href": "notes/notes.html#airbnb-in-the-city",
     "title": "Tourism and (Urban) Economics",
     "section": "Airbnb in The City",
-    "text": "Airbnb in The City\n\n\n\nFigure by Aguilera, Artioli and Colomb, Housing under Platform Capitalism"
+    "text": "Airbnb in The City\n\n\n\nFigure by Aguilera, Artioli, and Colomb (2025)"
   },
   {
     "objectID": "notes/notes.html#why-measuring-airbnb-impact-on-rents-is-difficult",
     "href": "notes/notes.html#why-measuring-airbnb-impact-on-rents-is-difficult",
     "title": "Tourism and (Urban) Economics",
     "section": "Why Measuring Airbnb Impact on Rents is Difficult",
-    "text": "Why Measuring Airbnb Impact on Rents is Difficult\n\nWe typically have data on long term rental rates next to the number of airbnb listings in a certain area of a city.\nWe see airbnb’s increase, and we see rents increase.\nIs this evidence that airbnb caused rents to go up?\nWhat if some city area is gentrifying (i.e. improving), thus getting more interesting for locals and for airbnb tourists at the same time?"
+    "text": "Why Measuring Airbnb Impact on Rents is Difficult\n\nThe proper response to Airbnb will take a stand on what is regarded as fair in some way Who gets what and how. However, to make good policy, it is crucial to have a good understanding of the magnitudes at play.\nIn particular: We may all agree that the arrival of Airbnb (et al) in a city most likely would increase rental prices, the crucial question is - by how much?\nWhat would rent have been in area xyz, had airbnb never happened?\nAirbnb does not share any data.\nWe typically have data only long term rental rates next to the number of airbnb listings in a certain area of a city.\nWe see airbnb’s increase, and we see rents increase.\nIs this evidence that airbnb caused rents to go up?\nWhat if some city area is gentrifying (i.e. improving), thus getting more interesting for locals and for airbnb tourists at the same time?"
   },
   {
     "objectID": "notes/notes.html#impact-of-airbnb-on-rents-in-barcelona",
@@ -179,7 +186,7 @@
     "href": "index.html#government-policy-1",
     "title": "Tourism and (Urban) Economics",
     "section": "Government Policy",
-    "text": "Government Policy\n\n\nThe Natural Resource Curse in Poor Countries.\nTourism Policy in rich OECD countries?\nIs Tourism a Growth Sector?\nWhat about Labor Markets in Tourism?\nSo, how can we grow tourism then?"
+    "text": "Government Policy\n\nThe Natural Resource Curse in Poor Countries.\nTourism Policy in rich OECD countries?\nIs Tourism a Growth Sector?\nWhat about Labor Markets in Tourism?\nSo, how can we grow tourism then?"
   },
   {
     "objectID": "index.html#some-issues-with-mass-tourism",
@@ -193,21 +200,28 @@
     "href": "index.html#tourists-in-cities",
     "title": "Tourism and (Urban) Economics",
     "section": "Tourists in Cities",
-    "text": "Tourists in Cities\n\nTradeoffs tradeoffs tradeoffs"
+    "text": "Tourists in Cities\n\n\nDecide on an allocation of space.\nGrowth in Urban Tourism expected very strong.\nPolicy makers must confront the critical tradeoffs: You cannot make everybody happy here."
+  },
+  {
+    "objectID": "index.html#the-arrival-of-platform-capitalism-in-our-cities",
+    "href": "index.html#the-arrival-of-platform-capitalism-in-our-cities",
+    "title": "Tourism and (Urban) Economics",
+    "section": "The Arrival of Platform Capitalism in our Cities",
+    "text": "The Arrival of Platform Capitalism in our Cities\n\n\n\n\n\nAirbnb, Uber, Deliveroo, Lime etc\nDigital Platform acting as a match maker\nConflict with other (traditional) forms of business.\nMany different approaches and layers to regulation.\n\n\n\n\nAirbnb Interest Groups\n\nAirbnb\nAssociations of “home sharers” (hosts)\nThe hotel industry\nResidents’ associations\nSharing economy advocates\nCorporate platforms"
   },
   {
     "objectID": "index.html#airbnb-in-the-city",
     "href": "index.html#airbnb-in-the-city",
     "title": "Tourism and (Urban) Economics",
     "section": "Airbnb in The City",
-    "text": "Airbnb in The City\n\nFigure by Aguilera, Artioli and Colomb (2025), Housing under Platform Capitalism"
+    "text": "Airbnb in The City\n\nFigure by Aguilera, Artioli, and Colomb (2025), Housing under Platform Capitalism"
   },
   {
     "objectID": "index.html#why-measuring-airbnb-impact-on-rents-is-difficult",
     "href": "index.html#why-measuring-airbnb-impact-on-rents-is-difficult",
     "title": "Tourism and (Urban) Economics",
     "section": "Why Measuring Airbnb Impact on Rents is Difficult",
-    "text": "Why Measuring Airbnb Impact on Rents is Difficult\n\nWe typically have data on long term rental rates next to the number of airbnb listings in a certain area of a city.\nWe see airbnb’s increase, and we see rents increase.\nIs this evidence that airbnb caused rents to go up?\nWhat if some city area is gentrifying (i.e. improving), thus getting more interesting for locals and for airbnb tourists at the same time?"
+    "text": "Why Measuring Airbnb Impact on Rents is Difficult\n\n\nWe typically have data on long term rental rates next to the number of airbnb listings in a certain area of a city.\nWe see airbnb’s increase, and we see rents increase.\nIs this evidence that airbnb caused rents to go up?\nWhat if some city area is gentrifying (i.e. improving), thus getting more interesting for locals and for airbnb tourists at the same time?"
   },
   {
     "objectID": "index.html#impact-of-airbnb-on-rents-in-barcelona",

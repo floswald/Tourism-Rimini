@@ -1,1 +1,1 @@
-Sitemap: git@flogit:floswald/Tourism-Rimini.git/sitemap.xml
+Sitemap: https://floswald.github.io/Tourism-Rimini/sitemap.xml
